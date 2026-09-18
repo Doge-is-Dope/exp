@@ -1,0 +1,4 @@
+interface:
+  display_name: "exp Debug"
+  short_description: "Reproduce and fix an MVP project failure"
+  default_prompt: "Use $exp-debug to investigate and fix the reported failure with verification evidence."

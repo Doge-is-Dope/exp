@@ -1,0 +1,4 @@
+interface:
+  display_name: "exp Review"
+  short_description: "Review an MVP implementation against its brief"
+  default_prompt: "Use $exp-review to check this implementation against the stated acceptance criteria."

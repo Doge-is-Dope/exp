@@ -1,0 +1,4 @@
+interface:
+  display_name: "exp Reset"
+  short_description: "Select one or more practice projects to remove"
+  default_prompt: "Use $exp-reset to list practice projects and let me select which to remove."

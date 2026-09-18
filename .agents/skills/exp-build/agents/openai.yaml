@@ -1,0 +1,4 @@
+interface:
+  display_name: "exp Build"
+  short_description: "Build an MVP task with acceptance evidence"
+  default_prompt: "Use $exp-build to complete the supplied MVP brief and verify the runnable result."

@@ -1,0 +1,8 @@
+# Harness evidence records local paths and platform details
+.harness/
+
+# Local secrets and machine settings
+.env
+.env.*
+!.env.example
+.DS_Store
