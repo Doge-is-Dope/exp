@@ -13,6 +13,10 @@ Time budget: [optional]
 Deliver a running result with startup instructions and evidence for the acceptance criteria; identify unfinished requirements.
 ```
 
+For a confirmed later extension, add: “The next agreed step is HTTP access to the same task operations. Build only the CLI now; explain how the future entrypoint would reuse the rules and which contracts it would affect.”
+
+For runtime capacity, state it separately: “Verify [operation] with [data volume] and [concurrent clients] on [environment], meeting [latency/throughput and error expectations]. Record the measured results and any unverified targets.” These targets are project requirements, not universal defaults.
+
 ## Explore architecture and flows
 
 ```text

@@ -6,7 +6,7 @@ To define: product goal, intended users, and the action they should complete.
 
 ## Confirmed requirements
 
-To define: scope, constraints, and time budget, if any.
+To define: scope, constraints, and time budget, if any. Where runtime capacity matters, record the workload, data volume, concurrency, performance expectations, and execution environment that affect the design; unknown targets remain unconfirmed.
 
 ## Acceptance
 
@@ -18,7 +18,7 @@ Describe observable outcomes and how to verify them using native tests or actual
 
 ## Assumptions and tradeoffs
 
-Record confirmed decisions and their reasons: the requirements driving architecture, the selected approach, and any material alternative. Label unconfirmed assumptions and the main unknown with its verification method. Connect brainstorm flows to the same acceptance scenarios.
+Record confirmed decisions and their reasons: the requirements driving architecture, the selected approach, and any material alternative. Include only design-relevant details: confirmed next changes versus assumptions, responsibility and data ownership, important dependency or contract boundaries, and when to revisit deferred choices. If no future change is confirmed, say so instead of inventing one. Label unconfirmed assumptions and the main unknown with its verification method. Connect brainstorm flows to the same acceptance scenarios.
 
 ## Current status
 

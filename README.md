@@ -35,6 +35,8 @@ If your requirements are already clear, you can request implementation and verif
 
 To resume a project in a new session, name its directory and ask to continue. Codex checks the existing specification, relevant files, and verification evidence before choosing the next action. The specification keeps a concise current snapshot of completed work, remaining work, open questions, and the next step; it is not a conversation log. Older passing results are checked against the current project. Read-only requests leave project records unchanged.
 
+For substantive architecture work, Codex ties boundaries and naming to current responsibilities, stack conventions, and confirmed next changes. Mention a known extension, such as adding HTTP access after a CLI, without authorizing it early. Capacity requirements need their own workload and environment evidence; modular code alone does not demonstrate scale. See the examples in [PROMPTS.md](PROMPTS.md).
+
 ## Available skills
 
 | Skill | Purpose |
