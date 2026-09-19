@@ -44,11 +44,14 @@ If your requirements are already clear, you can request implementation and verif
 | `$exp-debug` | Diagnose and fix failures |
 | `$exp-reset` | Move selected projects into recoverable backups |
 
+Claude Code loads the same skills through relative symlinks in `.claude/skills/`; invoke them as `/exp-build` and so on. `.agents/skills/` remains the only copy to edit.
+
 ## Project structure
 
 ```text
 exp/
 ├── .agents/skills/           # Instructions for Codex
+├── .claude/skills/           # Symlinks to the same skills for Claude Code
 ├── scaffold/                # Technology-neutral project template
 ├── harness/                 # Optional acceptance checks and bounded repair
 ├── tests/                   # Tests for the harness itself
