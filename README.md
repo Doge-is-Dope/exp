@@ -33,6 +33,8 @@ flowchart TD
 
 If your requirements are already clear, you can request implementation and verification directly. Planning-only requests stop at the proposal.
 
+To resume a project in a new session, name its directory and ask to continue. Codex checks the existing specification, relevant files, and verification evidence before choosing the next action. The specification keeps a concise current snapshot of completed work, remaining work, open questions, and the next step; it is not a conversation log. Older passing results are checked against the current project. Read-only requests leave project records unchanged.
+
 ## Available skills
 
 | Skill | Purpose |

@@ -8,6 +8,6 @@ After selecting a stack, add installation, configuration, and startup commands. 
 
 ## Verify
 
-Add executable checks and manual verification steps, including any required setup. The documented commands should work from a fresh source copy. Record acceptance results in SPEC.md.
+Add executable checks and manual verification steps, including any required setup. The documented commands should work from a fresh source copy. Record acceptance evidence in SPEC.md; for final harness verification, finish SPEC.md first and deliver the resulting report without another specification edit.
 
 Follow the parent workbench's `AGENTS.md` for code review and verification. Use the chosen stack's native checks by default. If the project adopts the optional harness, follow `harness/README.md` in the workbench for registration and report freshness; finish code and documentation changes before final verification.

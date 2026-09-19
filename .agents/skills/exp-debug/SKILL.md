@@ -11,4 +11,4 @@ Use evidence to discriminate between likely causes. If attempts stop producing n
 
 Fix the cause within the requested scope, review the correction, and rerun the failing scenario and affected checks using the project's established verification workflow. For harness commands and incomplete states, consult [the contract](../../../harness/README.md) when needed. A diagnosis-only request ends before product edits.
 
-Return the cause, correction, observed result, and remaining uncertainty or blocker.
+Return the cause, correction, observed result, and remaining uncertainty or blocker. For implemented repairs, reconcile the existing specification's status and affected acceptance evidence using the shared work-boundary rules; diagnosis-only findings belong in the response unless document changes were requested.

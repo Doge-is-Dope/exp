@@ -67,7 +67,15 @@ Change the requirements for [project] to [changes]. Update the existing specific
 ## Handoff
 
 ```text
-Summarize current requirements, completed work, actual verification results, unresolved issues, and next steps for another session.
+Prepare [project directory] for another session. Update the existing specification with current decisions, completed and remaining work, evidence references, unresolved questions, and the next action with its completion condition. Keep it concise and preserve the document's structure. If final harness verification is needed, finish document updates first and deliver its result without another specification edit.
+```
+
+For a read-only handoff, add: “Do not modify files; provide the handoff in your response.”
+
+## Resume
+
+```text
+Use $exp-build to continue [project directory]. Read its existing specification and check the relevant implementation and verification evidence. Continue the remaining authorized work, preserving confirmed decisions; distinguish older results from current acceptance and leave unanswered material questions unresolved.
 ```
 
 ## Remove projects

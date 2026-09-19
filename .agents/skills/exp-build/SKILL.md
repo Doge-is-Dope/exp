@@ -5,7 +5,7 @@ description: Build or update an MVP from a brief through runnable delivery and a
 
 # exp build
 
-Follow [AGENTS.md](../../../AGENTS.md) for workspace conventions, code quality, and verification. Use the project established by the user or session; ask if the target is ambiguous. A scaffold-only or planning-only request ends at that deliverable.
+Follow [AGENTS.md](../../../AGENTS.md) for workspace conventions, resuming work, current-state records, code quality, and verification. Use the project established by the user or session; ask if the target is ambiguous. A scaffold-only or planning-only request ends at that deliverable.
 
 Choose an approach suited to the intended users, deployment, data needs, existing code, and maintenance constraints. Briefly record the reasons and significant tradeoffs in the specification. When a choice needs user input, explain its practical consequences and recommend an option. Investigate uncertainty that could invalidate the design before committing substantial work; do not require a comparison or experiment for every routine choice.
 
