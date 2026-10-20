@@ -74,6 +74,7 @@ For requested bounded automatic repair, `run` calls a separate Codex CLI process
 
 ## Further reading
 
+- [pstack research and refinements](docs/pstack-refinement.md): targeted interface design, diagnosis, and review improvements, with validation limits.
 - [Skill alignment and verification](docs/skill-alignment.md): scope, rationale, and checks for the current instruction update.
 - [Prompt templates](PROMPTS.md): copy and fill in your requirements.
 - [Verification and automatic repair](harness/README.md): commands, requirements, and limits.

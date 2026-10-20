@@ -11,6 +11,8 @@ For architecture assessments or changes to responsibility or contract boundaries
 
 For harness-enabled projects, compare SPEC criteria, `acceptance.json`, and the actual assertions. Use `harness/cli.py status --project <project>` for freshness and `verify` when current execution is needed; consult [the contract](../../../harness/README.md) for details. A green report cannot establish behavior that its checks never exercise. For UI or motion review, use the applicable evidence criteria in [exp-design](../exp-design/SKILL.md); inspect intermediate-state coverage when required, not only settled values.
 
-Run focused checks to resolve concrete uncertainty. If independent review is requested, use a fresh-context reviewer with the requirements and raw artifacts. Its agreement is not execution evidence. Review alone does not authorize product edits. If the user prohibits all file writes, use read-only inspection and report checks that could not run; harness verification writes evidence files.
+Trace material changes beyond the diff through callers and affected contracts, including persisted data or external consumers when relevant. Identify the assumption that makes the change safe and check it through the real interface with a focused test or actual operation when permitted. Cite static support when execution is unavailable and leave the assumption unproven; reviewer agreement cannot prove it.
+
+If independent review is requested, use a fresh-context reviewer with the requirements and raw artifacts. Review alone does not authorize product edits. If the user prohibits all file writes, use read-only inspection and report checks that could not run; harness verification writes evidence files.
 
 Report actionable findings with location, trigger, impact, and evidence. Separate static findings, historical results, and current execution; state acceptance status and verification gaps. If no defect is found, say so without claiming none can exist.
